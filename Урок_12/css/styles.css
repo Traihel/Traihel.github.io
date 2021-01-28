@@ -1,0 +1,69 @@
+/* ===============================
+   Author:  {Traihel Vladimir}
+   Project: {07}
+   Date:    {01.01.2021}
+   Version: {1.0}
+  
+   Colour Palette:
+   ---------------
+   #0B5ED7
+   =============================== */
+*{box-sizing: border-box;}
+
+.container{
+   padding: 100px 0;
+   color: #333333;
+}
+.head, .benefits1, .benefits, .form-name, .klients, .foto{
+   text-align: center;
+}
+.head h1{
+   font-size: 24px;
+   line-height: 1.5;
+   margin-bottom: 85px;
+}
+.head strong{
+   display: block;
+   text-transform: uppercase;
+}
+.form{
+   border: 5px solid #0B5ED7;
+}
+.form-name{
+   font-size: 20px;
+   font-weight: bold;
+   margin: 20px 0 30px;
+}
+input{
+   margin: 20px 0;
+}
+button{
+   background-color: #0B5ED7;
+   color: white;
+   font-size: 18px;
+   font-weight: bold;
+   border: none;
+   width: 100%;
+   padding: 20px 0;
+   margin:10px 0 10px
+}
+
+.benefits{
+   font-size: 24px;
+   margin: 150px 0 85px;
+}
+.benefits1 p{
+   font-weight: bold;
+}
+
+.button2{
+   margin: 90px 0;
+}
+
+.klients{
+   margin-bottom: 70px;
+}
+
+.foto img{
+   padding-bottom: 20px;
+}
