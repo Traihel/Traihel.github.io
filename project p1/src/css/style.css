@@ -1,0 +1,170 @@
+/*fonts family*/
+@font-face {
+  font-family: 'ProximaNova_bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ProximaNova_reg';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/*Colot*/
+/*Basic setting*/
+html {
+  font-size: 10px;
+}
+button:focus,
+input:focus,
+a:focus {
+  outline: none;
+}
+.button {
+  background-color: #ffb504;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: none;
+  transition: all 0.2s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #eaa500;
+}
+/*Typography*/
+section {
+  padding: 10rem 0;
+}
+body {
+  font-family: 'ProximaNova_reg', sans-serif;
+}
+/*main*/
+.main {
+  padding: 3rem 0 5rem;
+  background: #ffffff url(../img/main-bg.png) center center no-repeat;
+  background-size: cover;
+}
+.main-content {
+  margin-top: 10rem;
+}
+.main-content h1 {
+  margin-top: 0;
+  margin-bottom: 4rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 5.8rem;
+}
+.main-p1 {
+  margin-bottom: 4rem;
+  font-size: 2.4rem;
+}
+.main span {
+  display: inline-block;
+  background-color: #42b012;
+  color: #ffffff;
+  padding: 2rem;
+  font-size: 2.4rem;
+  text-align: center;
+}
+.main span strong {
+  font-size: 3rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.main-str {
+  display: block;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+.main-form {
+  padding: 4rem 5rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+.main-form-header {
+  font-style: 1.8rem;
+  margin-bottom: 4rem;
+}
+.main-form-header strong {
+  font-style: 2rem;
+}
+.main-form-input {
+  display: block;
+  width: 100%;
+  border: 1px solid #dddddd;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+.main-form label {
+  font-style: 1.3rem;
+  background-color: #ffffff;
+  padding: 0.5rem;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+}
+.main-form-btn {
+  display: block;
+  height: 5.5rem;
+  width: 100%;
+  font-style: 1.6rem;
+}
+.main-form small {
+  display: block;
+  margin-top: 1.5rem;
+}
+.header {
+  height: 7rem;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.phon-link {
+  display: inline-block;
+  color: #1a1820;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  height: 7rem;
+  line-height: 7rem;
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .phon-bloc {
+    text-align: right;
+  }
+  .main-title {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .header,
+  .phon-bloc,
+  .wrap-block {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 15rem;
+  }
+}
