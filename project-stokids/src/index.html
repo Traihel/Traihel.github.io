@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="ru" xmlns:og="http://ogp.me/ns#">
+<head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="stoKids - интернет-магазин детской и женской одеждыПервый текст">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://traihel.github.io/project-stokids/src/index.html">
+    <meta property="og:image" content="img/stoKids.jpg">
+
+    <title>stoKids - интернет-магазин детской и женской одежды</title>
+    <link rel="shortcut icon" href="/src/img/favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style-less.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<body>
+    <header><!--header-->
+        <div class="header-top">
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-lg-2 col-sm-3 mess-right">
+                        <a class="phone" href="tel:+375298660433">+375 29 866-04-33</a>
+                    </div>
+                    <div class="col-lg-1 col-sm-2 mess-right">
+                        <a class="mess1" href=""></a>
+                        <a class="mess2" href=""></a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="header-bottom">
+            <div class="container">
+                <a class="logo2" href=""><img class="logo" src="img/header/logo.png" alt=""></a>
+                <ul class="nav justify-content-end nav-pill" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active nav-left" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Главная</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="catalog-tab" data-toggle="tab" href="#catalog" role="tab" aria-controls="catalog" aria-selected="false">Каталог</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="order-tab" data-toggle="tab" href="#order" role="tab" aria-controls="order" aria-selected="false">Заказ и оплата</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="delivery-tab" data-toggle="tab" href="#delivery" role="tab" aria-controls="delivery" aria-selected="false">Доставка</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">О нас</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="articles-tab" data-toggle="tab" href="#articles" role="tab" aria-controls="articles" aria-selected="false">Полезные статьи</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link nav-right" id="reviews-tab" data-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">Отзывы</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header><!--end header-->
+
+    <main><!--main-->
+        <div class="tab-content" id="myTabContent">
+
+            <div iv class="home tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><!--home Главная-->
+                <div class="container">    
+                    <div class="news-slider"><!--news-slider новостной слайдер-->
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/home/home-slider/1.jpg" class="d-block w-100" alt="Первая новость">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/home/home-slider/2.jpg" class="d-block w-100" alt="Вторая новость">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/home/home-slider/3.jpg" class="d-block w-100" alt="Третья новость">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only"></span>
+                            </a>
+                        </div>
+                    </div><!--end news-slider новостной слайдер-->
+                    <div class="main-h1">
+                        <h1>Интернет-магазин детской и женской одежды</h1>
+                    </div>
+                    <div class="main-catalog"><!--main-catalog каталог-->
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                <a href="">
+                                    <img src="img/home/home-catalog/kids-clothes.jpg" alt="Одежда для детей">
+                                    <button>Одежда для детей</button>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <a href="">
+                                    <img src="img/home/home-catalog/kids-footwear.jpg" alt="Обувь для детей">
+                                    <button>Обувь для детей</button>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <a href="">
+                                    <img src="img/home/home-catalog/kids-accessories.jpg" alt="Аксесуары для детей">
+                                    <button>Аксесуары для детей</button>
+                                </a>
+                            </div>
+                        
+                            <div class="col-lg-4 col-sm-6">
+                                <a href="">
+                                    <img src="img/home/home-catalog/women-clothing.jpg" alt="Женская одежда">
+                                    <button>Женская одежда</button>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <a href="">
+                                    <img src="img/home/home-catalog/women-footwear.jpg" alt="Женская обувь">
+                                    <button>Женская обувь</button>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <a href="">
+                                    <img src="img/home/home-catalog/other.jpg" alt="Прочее">
+                                    <button>Прочее</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div><!--end main-catalog каталог-->
+
+                    <div class="main-articles"><!--main-articles полезные статьи-->
+                        <div class="articles-h2">
+                            <h2>Полезные статьи</h2>
+                        </div>
+                        <div class="row articles-row">
+                            <div class="col-lg-4">
+                                <a href="">
+                                    <img src="img/articles/articles-1.jpg" alt="">
+                                    <h5>Советы по выбору детской одежды</h5>
+                                    <p>Чтобы удачно купить подходящую детскую одежду, необходимо тщательно измерить ребенка. Мерки соотносят с размерной сеткой, и таким образом определяют...</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="">
+                                    <img src="img/articles/articles-2.jpg" alt="">
+                                    <h5>Как выбрать размер одежды и обуви для ребенка и его родителей</h5>
+                                    <p>Для того, чтобы определить размер одежды для ребенка или взрослого нужно знать его рост. Чтобы определить его...</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="">
+                                    <img src="img/articles/kids-x.jpg" alt="">
+                                    <h5>Научные факты о детях, которые доказывают: все они немного «люди Икс»</h5>
+                                    <p>Дети по-другому реагируют на те или иные продукты. У ребенка примерно...</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div><!--end main-articles-->
+                </div>
+                <div class="main-reviews"><!--main-reviews отзывы-->
+                    <div class="container">
+                        <h2><a href="">Отзывы</a></h2>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img src="img/home/home-reviews/user1.png" alt="Светлана">
+                                <h5>Супер</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate exercitationem perferendis unde nostrum distinctio odio sit doloremque laboriosam facilis quo.</p>
+                                <i>Светлана</i>
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="img/home/home-reviews/user3.png" alt="Александра">
+                                <h5>Спасибо магазину</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nulla iure hic consequatur pariatur molestiae!</p>
+                                <i>Александра</i>
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="img/home/home-reviews/user2.png" alt="Марина">
+                                <h5>Мама довольна</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ducimus praesentium alias voluptate consequuntur eius, debitis soluta excepturi perferendis aliquam quis, laborum quidem, esse dignissimos.</p>
+                                <i>Марина</i>
+                            </div>
+                        </div> 
+                    </div>
+                </div><!--end main-reviews-->  
+                <div class="container"><!--main-instagram-->
+                    <div class="main-instagram">
+                        <p>Мы в INSTAGRAM</p>
+                        <a href=""><h2>@stokids</h2></a>
+                    </div>
+                </div><!--end main-instagram--> 
+            </div><!--end Главная-->
+
+            <div class="catalog tab-pane fade" id="catalog" role="tabpanel" aria-labelledby="catalog-tab"><!--catalog Католог-->
+                <div class="container">
+
+                    <div class="nav-bar nav-catalog"><!--Навигация по каталогу-->
+                        <ul>
+                            <li><a href="#kids-clothes">Одежда для детей</a></li>
+                            <li><a href="#kids-footwear">Обувь для детей</a></li>
+                            <li><a href="#kids-accessories">Аксесуары для детей</a></li>
+                            <li><a href="">Женская одежда</a></li>
+                            <li><a href="">Женская обувь</a></li>
+                            <li><a href="">Прочее</a></li>
+                        </ul>
+                        <div class="nav-bar-bottom">
+                            <p>Мы в INSTAGRAM</p>
+                            <a href=""><h3>@stokids</h3></a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div id="kids-clothes"><!--Одежда для детей-->
+                            <h2 id="catalog-h2">Одежда для детей</h2>
+                            <div class="row">
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="box">
+                                        <img src="img/catalog/0lTKjJmZBmI.jpg" alt="Одежда для детей">
+                                        <h6>Джуда</h6>
+                                        <p>Размеры 60 рукава 2шт пуговицы 50 и просто супер</p>
+                                        <i>40р.</i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="box">
+                                        <img src="img/catalog/xL9yTv3B6G4.jpg" alt="Одежда для детей">
+                                        <h6>Кофта с мики маусом</h6>
+                                        <p>Размеры 60 ляпота не отвести глас супер пупер абалдеие</p>
+                                        <i>40р.</i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="box">
+                                        <img src="img/catalog/kkX0o-geBQo.jpg" alt="Одежда для детей">
+                                        <h6>Пижама кунгуру проба заголовка</h6>
+                                        <p>Размеры 60 тепля пижамка оболдение рукава 2 шт и 2 штанины все как у людей</p>
+                                        <i>40</i><i>р.</i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="box">
+                                        <img src="img/catalog/TOcs3Y8QSSs.jpg" alt="Одежда для детей">
+                                        <h6>Куртка демисизоная</h6>
+                                        <p>Размеры 60 тоже 2 рукава что бы небыло холодно есть капюшон что бы за шиворот не каполо</p>
+                                        <i>40</i><i>р.</i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="box">
+                                        <img src="img/catalog/5T5ZqxAeCPc.jpg" alt="Одежда для детей">
+                                        <h6>Джуда</h6>
+                                        <p>Размеры 60 рукава 2шт пуговицы 50 и просто супер</p>
+                                        <i>40р.</i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <img src="img/catalog/6yPZapuQP1U.jpg" alt="Одежда для детей">
+                                    <h6>Джуда</h6>
+                                    <p>Размеры 60 рукава 2шт пуговицы 50 и просто супер</p>
+                                    <i>40р.</i>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <img src="img/catalog/7lh2Estw8jk.jpg" alt="Одежда для детей">
+                                    <h6>Джуда</h6>
+                                    <p>Размеры 60 рукава 2шт пуговицы 50 и просто супер</p>
+                                    <i>40р.</i>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <img src="img/catalog/28WxIe0Jv9E.jpg" alt="Одежда для детей">
+                                    <h6>Джуда</h6>
+                                    <p>Размеры 60 рукава 2шт пуговицы 50 и просто супер</p>
+                                    <i>40р.</i>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <img src="img/catalog/bE_nxxoNWnI.jpg" alt="Одежда для детей">
+                                    <h6>Джуда</h6>
+                                    <p>Размеры 60 рукава 2шт пуговицы 50 и просто супер</p>
+                                    <i>40р.</i>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <img src="img/catalog/c-ch_4Nqvr8.jpg" alt="Одежда для детей">
+                                    <p>Название товара</p>
+                                    <p>Размеры</p>
+                                    <p>Цена</p>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <img src="img/catalog/cSv7Bd_7tJk.jpg" alt="Одежда для детей">
+                                    <p>Название товара</p>
+                                    <p>Размеры</p>
+                                    <p>Цена</p>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <img src="img/catalog/HGCrgFtVQQw.jpg" alt="Одежда для детей">
+                                    <p>Название товара</p>
+                                    <p>Размеры</p>
+                                    <p>Цена</p>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="box">
+                                        <img src="img/catalog/pIR1bH5EUb4.jpg" alt="Одежда для детей">
+                                        <h6>Джуда</h6>
+                                        <p>Размеры 60 рукава 2шт пуговицы 50 и просто супер</p>
+                                        <i>40р.</i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="box">
+                                        <img src="img/catalog/QDGH-BL-7d8.jpg" alt="Одежда для детей">
+                                        <h6>Джуда</h6>
+                                        <p>Размеры 60 рукава 2шт пуговицы 50 и просто супер</p>
+                                        <i>40р.</i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="box">
+                                        <img src="img/catalog/ztQDREE6shk.jpg" alt="Одежда для детей">
+                                        <h6>Джуда</h6>
+                                        <p>Размеры 60 рукава 2шт пуговицы 50 и просто супер</p>
+                                        <i>40р.</i>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div><!-- end Одежда для детей-->
+    
+                        <div id="kids-footwear"><!--Обувь для детей-->
+                            <h2>Обувь для детей</h2>
+                            <div class="row">
+                                <div class="col-lg-3 col-sm-6">
+                                    <img src="img/catalog/1S6b124Semc.jpg" alt="Одежда для детей">
+                                    <p id="qwe">Название товара</p>
+                                    <p>Размеры</p>
+                                    <p>Цена</p>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <img src="img/catalog/EfaxgmWZRhQ.jpg" alt="Одежда для детей">
+                                    <p>Название товара</p>
+                                    <p>Размеры</p>
+                                    <p>Цена</p>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <img src="img/catalog/f2mLRFStsNs.jpg" alt="Одежда для детей">
+                                    <p>Название товара</p>
+                                    <p>Размеры</p>
+                                    <p>Цена</p>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <img src="img/catalog/f2mLRFStsNs.jpg" alt="Одежда для детей">
+                                    <p>Название товара</p>
+                                    <p>Размеры</p>
+                                    <p>Цена</p>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <img src="img/catalog/f2mLRFStsNs.jpg" alt="Одежда для детей">
+                                    <p>Название товара</p>
+                                    <p>Размеры</p>
+                                    <p>Цена</p>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <img src="img/catalog/f2mLRFStsNs.jpg" alt="Одежда для детей">
+                                    <p>Название товара</p>
+                                    <p>Размеры</p>
+                                    <p>Цена</p>
+                                </div>
+                            </div>
+                        </div><!--end Обувь для детей-->
+    
+                        <div id="kids-accessories"><!--Аксесуары для детей-->
+                            <h2>Аксесуары для детей</h2>
+                            <div class="row">
+                                <div class="col-lg-3 col-sm-6">
+                                    <img src="img/catalog/1uro6BScSEo.jpg" alt="Одежда для детей">
+                                    <p>Название товара</p>
+                                    <p>Размеры</p>
+                                    <p>Цена</p>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <img src="img/catalog/L6eoEjoT9eM.jpg" alt="Одежда для детей">
+                                    <p>Название товара</p>
+                                    <p>Размеры</p>
+                                    <p>Цена</p>
+                                </div>
+                            </div>
+                        </div><!--end Аксесуары для детей-->
+                    </div>
+
+                </div>
+            </div><!--end catalog Католог-->
+            
+            <div class="order tab-pane fade" id="order" role="tabpanel" aria-labelledby="order-tab"><!--order Заказ и оплата-->
+                <div class="container">
+
+                </div>
+            </div><!--end order Заказ и оплата-->
+
+            <div class="tab-pane fade" id="delivery" role="tabpanel" aria-labelledby="delivery-tab">Четвертый раздел</div>
+            <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">О нас информация</div>
+
+            <div class="articles tab-pane fade" id="articles" role="tabpanel" aria-labelledby="articles-tab"><!--articles Полезные статьи-->
+                <div class="container">
+                    <div class="nav-bar nav-articles"><!--Навигация по статьям-->
+                        <ul>
+                            <li><a href="#article-1">Советы по выбору детской одежды</a></li>
+                            <li><a href="#article-2">Как выбрать размер одежды и обуви для ребенка и его родителей</a></li>
+                            <li><a href="#article-3">Научные факты о детях, которые доказывают: все они немного «люди Икс»</a></li>
+                        </ul>
+                        <div class="nav-bar-bottom">
+                            <p>Мы в INSTAGRAM</p>
+                            <a href=""><h3>@stokids</h3></a>
+                        </div>
+                    </div>
+                    <div class="row"><!--Статьи-->
+                        <div class="col-lg-12">
+                            <div id="article-1"><!--Советы по выбору детской одежды-->
+                                <h2>Советы по выбору детской одежды</h2>
+                                <img src="img/articles/articles-1.jpg" alt="Советы по выбору детской одежды">
+                                <h6>Одежда должна быть подобрана с учетом размера и возраста!</h6><p>Чтобы удачно купить подходящую детскую одежду, необходимо тщательно измерить ребенка. Мерки соотносят с размерной сеткой, и таким образом определяют правильный размер. Если размер колеблется между двумя отметками шкалы в таблице, обычно выбирают ту вещь, что больше. При покупке одежды для своего ребенка родители должны обратить внимание как минимум на два параметра: рост и обхват груди. Наличие данных по обхвату талии и бедер, а также по длине спинки – особое везение, которое позволит подобрать идеальную по размеру одежду для малыша. ВАЖНО ЗНАТЬ! Маленькие дети растут очень быстро. Груднички в первые три месяца жизни в среднем вырастают на один размер каждые месяц-полтора. От 3 месяцев до года – на один размер раз в три месяца. От года до 4-5 лет темпы роста замедляются: размер увеличивается раз в полгода. Далее считают один год за плюс один размер.</p>
+                                <h6>Одежда должна быть из натуральных тканей с минимальным содержанием синтетики!</h6><p>Детский гардероб должен преимущественно состоять из вещей, изготовленных из натуральных, приятных на ощупь, тканей с небольшим добавлением синтетики, которая значительно продляет изделиям жизнь. Искусственные материалы допустимы и даже приветствуются, если речь идет о куртках, ветровках, полукомбинезонах, но никак не о нательном белье ребенка, которое имеет непосредственный контакт с кожей и может стать причиной различных аллергических реакций.</p>
+                                <h6>Одежда должна быть удобной!</h6><p>До трёхлетнего возраста малышей одевают в мягкие вещи, с хорошей воздухопроницаемостью, гигроскопичностью из натуральных тканей, без жестких швов. Детская одежда должна легко сниматься и надеваться, что актуально и для новорожденных, и для малышей, которые посещают детский сад. В первом случае у мамы не возникнет дополнительных трудностей во время переодевания карапуза, а во втором – ребенок быстрее освоит навыки самообслуживания, что поспособствует повышению самооценки и уверенности в себе. В этом случае не спешите приобретать одежду с множеством пуговиц и сложных деталей для ребенка. Лучше всего, когда родители отдают предпочтение вещам на кнопках и молниях. К шнуркам и пуговицам стоит переходить, когда ребенок становится самостоятельным полностью. Обратите внимание на швы и фурнитуру, они должны быть плоскими, а резинки на поясе – не тугими. Также одежда не должна сковывать движения и ограничивать свободу малыша. В одежде для новорожденных важно, чтобы фурнитура была крепко прикреплена, чтобы ребенок не мог ее оторвать и засунуть в рот и не давила малышу, когда он лежит на животике. В этом случае очень удобны в эксплуатации будут боди, кофточки, распашонки с плоскими застежками – кнопками на плече. А для ползунков и комбинезонов удобно, когда застежка расположена снизу, чтобы было проще менять подгузник.</p>
+                                <h6>Одежда должна быть практичной!</h6><p>Вещи, приобретаемые для дошкольного возраста, должны успешно переносить многократные стирки. Выбирая одежду для своего ребенка в этом случае, необходимо отказаться от деликатных тканей, которые не переносят таких «стрессов». Стоит покупать одежду из более прочных и долговечных материалов.</p>
+                                <h6>Одежда должна быть качественной!</h6><p>В детской одежде должны быть крепкие швы, замки и молнии надежны, для пошива должен использоваться только качественный крепкий материал, а сама работа по пошиву должна быть профессиональной и качественной. Только в этом случае ребенок сможет беззаботно играть, не боясь повредить новую одежду.</p>
+                                <h6>Одежда должна быть красивой!</h6><p>Детская одежда должна быть яркой и интересной. Конечно, можно нарядить ребенка в немаркие цвета и неброские модели. Но вряд ли это поможет ему гармонично и комфортно чувствовать себя в подобной серости. Доказано, что даже груднички высказывают предпочтения в цветах, а малыши постарше с удовольствием наряжаются и выбирают одежду. К тому же, наличие различных деталей помогает в развитии мелкой моторики. Цвет одежды также важен. Исследования показывают, что узор и цвет ткани стимулируют интерес и умственное развитие ребенка.</p>
+                            </div><!--end Советы по выбору детской одежды-->
+
+                            <div id="article-2"><!--Как выбрать размер одежды и обуви для ребенка и его родителей-->
+                                <h2>Как выбрать размер одежды и обуви для ребенка и его родителей</h2>
+                                <img src="img/articles/articles-2.jpg" alt="Как выбрать размер одежды и обуви для ребенка и его родителей">
+                                <p>Для того, чтобы определить размер одежды для ребенка нужно знать его рост. Чтобы определить его, попросите ребенка встать у стенки ровно, на уровне головы разместите плоский предмет, книгу, например, и поставьте отметку, расстояние от нее до пола можно измерить сантиметровой лентой.</p><p id="mar-p">Объем груди измеряется поверх белья в самой широкой части груди.</p><p>Обхват бедер измеряется на уровне самой выпуклой части ягодиц.</p><p>Измерить обхват талии у малышей бывает непросто, так как не всегда видно, где она находится. Чтобы определить уровень талии, повяжите ребенку вокруг живота жесткую тесьму и попросите его походить или посидеть: тесьма «встанет» на нужном уровне, а вы легко определите обхват талии.</p><p>Длина рукава – это расстояние от края плеча до середины кисти, эту мерку нужно знать при покупке жакетов или фасонных вещей.</p><p>Чтобы вещь хорошо сидела по фигуре, а ребенок чувствовал себя максимально комфортно, при покупке одежды стоит учитывать комплекцию и вес ребенка, а сориентироваться по размерам поможет такая таблица:</p>
+                                <img class="table-img" src="img/articles/articles-2-table-1.jpg" alt="Таблица детских размеров">
+                                <img class="table-img" src="img/articles/articles-2-table-2.jpg" alt="Размеры">
+                                <p>При выборе чулочно-носочных изделий учитывается размер обуви и длина стопы от пятки до кончика самого выступающего пальца, а при покупке колготок стоит отталкиваться от роста и возраста ребенка.</p>
+                                <h6>Для выбора размера одежды и обуви для взрослых также необходимо знать следующие антропометрические данные:</h6>
+                                <p>Рост. Для того чтобы, верно, измерить свой рост, вам будет необходима посторонняя помощь, линейка и карандаш. Становитесь босиком спиной к стене, стараясь не горбиться. Линейка кладется на голову, проводится прямая линия от макушки до стены, где и делается пометка карандашом. Теперь при помощи линейки или метра высчитываете расстояние от пола до метки.</p><p>Обхват груди. Вам понадобится гибкая лента–метр. Обмотайте вокруг груди сантиметр так, чтобы он прошел через все выступающие точки. Для получения точного результата повторите процедуру измерения повторно.</p><p>Обхват талии также измеряется при помощи сантиметра. Измеряя талию, не втягивайте живот, иначе показатель будет неверный.</p><p>Обхват бедер. Измеряется примерно на 15-18 сантиметров ниже уровня талии по самым выступающим точкам ягодиц.</p><p>
+                                <img class="table-img" src="img/articles/articles-2-table-3.jpg" alt="таблица">
+                                <img class="table-img" src="img/articles/articles-2-table-4.jpg" alt="таблица">
+                                Размер обуви. Размер ноги человека определяется двумя параметрами - длиной и шириной стопы. Определяем свои размеры. Первое - измерим длину стопы. Делать это рекомендуется в конце дня, т.к. ноги растаптываются и становятся больше. Встаньте на лист бумаги и обведите ногу карандашом. Для определения длины стопы измерьте расстояние между самыми удаленными точками на чертеже. Измерьте обе ноги и выберите большую длину. Округлите полученный результат до 5 мм и найдите свой размер в таблице.</p>
+                            </div><!--end Как выбрать размер одежды и обуви для ребенка и его родителей-->
+
+                            <div id="article-3"><!--Научные факты о детях, которые доказывают: все они немного «люди Икс»-->
+                                <h2>Научные факты о детях, которые доказывают: все они немного «люди Икс»</h2>
+                                <img src="img/articles/kids-x.jpg" alt="все они немного «люди Икс»">
+                                <h6>Ребенок не может понять вкус оливок</h6><p>Дети по-другому реагируют на те или иные продукты. У ребенка примерно 30 000 вкусовых рецепторов, у взрослого — в 3 раза меньше. Малыши не просто так испытывают тягу к конфетам и шоколаду. Пища с высоким содержанием сахара напоминает им о материнском молоке. Сладости могут даже действовать как легкое обезболивающее. И лишь с годами появляется способность оценить оливки, авокадо и острые сыры. Есть даже список продуктов, которые мы можем распробовать в том или ином возрасте.</p>
+                                <h6>Дети думают иначе</h6><p>Дети задействуют одновременно все зоны мозга. Ученые провели эксперимент: изучили реакции более 200 человек разного возраста с помощью магнитно-резонансной томографии. Выяснилось, что у взрослых активность возникает в одной из 4 основных нейросетей мозга, а у детей весь мозг работает как единое целое. Благодаря этому они легче восстанавливаются после травм головы.</p>
+                                <h6>В младенчестве ребенок смеется, как обезьяна</h6><p>Попробуйте одновременно вдохнуть и рассмеяться — у вас не получится. Для маленького ребенка это естественное явление. Ученые выяснили, что физиология смеха у детей до полутора лет напоминает аналогичный механизм у шимпанзе. С возрастом это пропадает. Пока исследователи предполагают, что открытие поможет понять, как у людей формируется способность говорить.</p>
+                                <h6>Ребенку бесполезно дарить маленькие игрушки</h6><p>До полугода дети предпочитают большие объекты. Японские ученые провели исследование: показывали младенцам разного возраста вращающиеся круги. Известно, что взрослый человек автоматически будет отслеживать тот круг, что меньше. Малыши сделали другой выбор. Только после 6 месяцев они начинают реагировать на размеры так же, как их родители.</p>
+                                <h6>Решения детей более верные</h6><p>Дети принимают решения лучше взрослых. Это подтверждает исследование канадских ученых. Маленький ребенок, делая выбор, учитывает всю информацию о мире, которая у него есть. Становясь старше, он ориентируется в основном на данные, которые получает от окружающих. К 6 годам способность делать максимально взвешенные решения практически пропадает.</p>
+                                <h6>К полутора годам ребенок понимает шутки</h6><p>Примерно в 16 месяцев ребенок начинает понимать, когда взрослые ведут себя серьезно, а когда притворяются. Правда, на первых порах важно, чтобы родители давали подсказки. Тогда ребенок быстро начинает понимать шутки и отвечать на попытки вовлечь его в игру. Дети, в семье которых приняты игры и небольшие розыгрыши, раньше улавливают разницу между абстрактными понятиями и реальностью — и развиваются скорее сверстников.</p>
+                            </div><!--end Научные факты о детях, которые доказывают: все они немного «люди Икс»-->
+                        </div>
+                    </div>
+                </div>
+            </div><!--end articles Полезные статьи-->
+
+            <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+                <div class="container">
+                    
+                </div>
+            </div>
+        </div>
+    </main><!--end main-->
+
+    <footer><!--footer-->
+        <div class="container">
+            <div class="row footer-top">
+                <div class="col-lg-4 col-sm-4">
+                    <p>Покупателям</p>
+                    <a href="#delivery">Доставка</a><br>
+                    <a href="">Заказ и оплата</a>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <p>Информация</p>
+                    <a href="">О нас</a><br>
+                    <a href="">Полезные статьи</a>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <p>Мы на связи</p>
+                    <a href="tel:+375298660433">+375 29 866-04-33</a><br>
+                    <a href="tel:+375298877503">+375 29 887-75-03</a><br>
+                    <a class="mess1 mess" href=""></a>
+                    <a class="mess2 mess" href=""></a>
+                </div>
+            </div>
+            <div class="row footer-bottom">
+                <div class="col-lg-3 col-sm-3">
+                    <a href=""><img src="img/header/logo.png" alt=""></a>
+                </div>
+                <div class="col-lg-9 col-sm-9">
+                    <p>Здесь информация о ИП Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptaonsectetur adipisicing elit. Voluptate suscipit itaqte suscipit itaqueonsectetur adipisicing elit. Voluptate suscipit itaq ad. Magnam veritatis, dolores illum, laboriosam exercitationem provident nisi est cumque labore iste modi corporis praeseetur adipisicing elit. Voluptate suscipit itaque ad. Magnam veritatis, dolores illum, laboriosam exercitationem provident nisi est cumque labore iste modi corporis praesentium sapiente, expedita illo.</p>
+                </div>
+            </div>
+            <p class="copy">&copy 2021 stokids.by. All Rights Reserved.</p>
+        </div>
+    </footer><!--end footer-->
+
+    <a href="#" class="scrollup"></a><!--Кнопак на верх-->
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 100) {
+                    $('.scrollup').fadeIn();
+                }
+                else {
+                    $('.scrollup').fadeOut();
+                }
+            });
+            $('.scrollup').click(function(){
+                $("html, body").animate({ scrollTop: 0 }, 600);
+                return false;
+            });
+        });
+    </script>
+
+</body>
+</html>
